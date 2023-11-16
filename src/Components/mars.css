@@ -1,0 +1,338 @@
+.mars{
+    background-color: #111B21;
+}
+.mars .community{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin: 3rem;
+    align-items: center;
+    padding: 3rem 3rem;
+}
+.state img{
+    width: 50%;    
+    border-radius: 2rem;
+}
+.mars .apple{
+    text-align: left;
+}
+.apple h2{
+    font-size: 55px;
+    line-height: 1;
+    padding-right: 17rem;
+    color: #fff;
+}
+.apple span{
+    color: #25D366;
+}
+.apple p{
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: #fff;
+}
+.apple a{
+    text-decoration: underline;
+    text-decoration-color: #25D366;
+    font-size: 19px;
+    letter-spacing: -0.01em;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 7px;
+    color: #fff;
+}
+.apple a:hover{
+    color: #25D366;
+}
+.light{
+    background: #ECE5DD;;
+}
+.light .the{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+.light .sky{
+    text-align: center;
+}
+.mention img{
+    margin-top: 2rem;
+    width: 50%;
+    border-radius: 2rem;
+}
+.sky h2{
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.sky p{
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+}
+.sky a{
+    text-decoration: underline;
+    text-decoration-color: #25D366;
+    font-size: 19px;
+    letter-spacing: -0.01em;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 7px;
+    color: #000;
+}
+.sky a:hover{
+    color: #25D366;
+}
+
+
+@media screen and (max-width: 480px){
+    .mars{
+        background-color: #111B21;
+        width: 156%;
+    }
+    .mars .community{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: 1fr;
+    }
+    .state img {
+        width: 80%;
+        object-fit: cover;
+        border-radius: 2rem;
+   }
+   .apple{
+    word-wrap: break-word;
+
+   }
+.apple h2{
+    font-size: 30px;
+    line-height: 1;
+    color: #fff;
+}
+.apple span{
+    color: #25D366;
+}
+.apple p{
+    font-size: 7px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    color: #fff;
+}
+.apple a{
+    text-decoration: underline;
+    text-decoration-color: #25D366;
+    font-size: 19px;
+    letter-spacing: -0.01em;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 7px;
+    color: #fff;
+}
+.light .the{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+}
+  .mention img{
+    margin-top: 4rem;
+    width: 80%;
+    border-radius: 2rem;
+}
+.light .sky{
+    text-align: left;
+}
+.sky{
+    white-space: nowrap;     
+  }
+  .sky h2{
+    font-size: 25px;
+  }
+  .sky p{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    white-space: initial;
+    width: 120%;
+  }
+}
+@media screen and (max-width: 768px){
+    .mars .community{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: 1fr;
+    }
+    .state img {
+        width: 60%;
+        object-fit: cover;
+        border-radius: 2rem;
+   }
+   .apple{
+    word-wrap: break-word;
+    margin-right: 5rem;
+   }
+.apple h2{
+    font-size: 40px;
+    line-height: 1;
+    color: #fff;
+    padding-right: 17rem;
+}
+.light .the{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+    padding: 3rem;
+}
+  .mention img{
+    margin-top: 4rem;
+    width: 40%;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+.light .sky{
+    text-align: left;
+}
+.sky{
+    white-space: nowrap;     
+  }
+  .sky h2{
+    font-size: 25px;
+  }
+  .sky p{
+    font-size: 20px;
+  }
+}
+
+
+
+@media screen and (max-width: 520px){
+}    .apple{
+        margin-right: 1.8rem;
+    }
+
+
+
+
+@media screen and (max-width: 320px){
+    .mars{
+        background-color: #111B21;
+    }
+    .mars .community{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: 1fr;
+        margin-left: 6rem;
+
+    }
+    .state img{
+        width: 70%;
+        border-radius: 2rem;
+   }
+   .mars .apple{
+    padding-right: 7rem;
+   }
+.apple h2{
+    font-size: 40px;
+    line-height: 1;
+    color: #fff;
+}
+.apple p{
+    font-size: 23px;
+    letter-spacing: -0.01em;
+    color: #fff;
+}
+.light .the{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+}
+.sky{
+    white-space: nowrap; 
+  }
+  .sky h2{
+    font-size: 29px;
+  }
+  .sky p{
+    font-size: 20px;
+  }
+  .mention{
+    margin-top: 4rem;
+    width: 110%;
+    height: auto;
+    border-radius: 2rem;
+    object-fit: cover;
+    margin-left: -3rem;
+}
+}
+
+@media screen and (max-width: 414px){
+    .mars{
+        background-color: #111B21;
+        width: 158%;
+    }
+
+    .state {
+        width: 90%;
+        margin-left: rem;
+        border-radius: 2rem;
+   }
+    .apple{
+        margin-left: rem;
+    }
+    .apple p{
+        width: 60%;
+    }
+    .sky p{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 380px){
+    .mars{
+        background-color: #111B21;
+        width: 175%;
+    }
+}
+
+@media screen and (max-width: 399px){
+    .mars .apple{
+        padding-right: 7rem;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .state img {
+        width: 66%;
+        object-fit: cover;
+        border-radius: 2rem;
+   }
+   .mention img{
+    margin-top: 4rem;
+    width: 70%;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+}
+
+@media screen and (max-width: 403px){
+    .light .sky{
+        margin-left: -3rem;
+    }
+    .sky p{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .apple p{
+        width: 90%;
+        font-size: 25px;
+    }
+}

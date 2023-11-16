@@ -1,0 +1,238 @@
+.elon{
+    margin-top: 4rem;
+    font-size: 40px;
+    line-height: 66px;
+}
+.musk img{
+    width: 90%;
+}
+.musk h2{
+    font-size: 38px;
+    line-height: 66px;
+    font-weight: 400;
+    
+}
+.strong .know{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+.strong .live{
+    text-align: center;
+}
+ .focus img{
+    width: 40%;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+.live{
+    
+}
+.live h2{
+    font-size: 20px;
+    line-height: normal;
+}
+.live p{
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+}
+.live a{
+    text-decoration: underline;
+    text-decoration-color: #25D366;
+    font-size: 19px;
+    letter-spacing: -0.01em;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 7px;
+    color: #000;
+}
+.live a:hover{
+    color: #25D366;
+}
+
+@media screen and (max-width: 480px){
+    .elon{
+        margin-top: 5rem;
+    }
+    .musk img{
+        display: none;
+    }
+    .musk h2{
+        font-size: 20px;
+        white-space: nowrap; 
+        letter-spacing: 2px;
+        line-height: 38px;
+        margin-left: 7rem;
+      }
+      .strong .know{
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .focus img{
+        max-width: 70%;
+        object-fit: cover;
+        border-radius: 2rem;
+        margin-left: 10rem;
+      }
+      .live{
+        margin-right: -2rem;
+    }
+    .live h2{
+        font-size: 19px;
+        line-height: 1.2;
+    }
+    .live p{
+        width: 110%;
+    }
+    .live a{
+        text-decoration: underline;
+        text-decoration-color: #25D366;
+        font-size: 19px;
+        letter-spacing: -0.01em;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 7px;
+        color: #333232;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .musk h2{
+        font-size: 17px;
+        text-align: center;
+        white-space: nowrap; 
+        letter-spacing: 2px;
+        line-height: 38px;
+      }
+      .strong .know{
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .focus img{
+        width: 40%;
+        object-fit: cover;
+        border-radius: 2rem;
+      }
+      .strong .live{
+      text-align: start;
+
+    }
+    .live h2{
+        font-size: 19px;
+        line-height: 1.2;
+        white-space: nowrap; 
+    }
+    .live p{
+    }
+}
+
+
+@media screen and (max-width: 414px){
+    .musk h2{
+        padding-left: 5rem;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .musk img{
+        display: none;
+      }
+      .musk{
+        word-break: break-all;
+      }
+      .musk h2{
+          font-size: 22px;
+          text-align: center;
+          padding-left: 3rem;
+      }
+        .strong .live{
+         }
+         .live p{
+            width: 70%;
+         }
+        .focus {
+         width: 120%;
+         object-fit: cover;
+         border-radius: 2rem;
+        }
+}
+
+
+
+
+@media screen and (max-width: 414px){
+    .musk img{
+        display: none;
+     }
+     .musk{
+         word-break: break-all;
+     }
+     .musk h2{
+         font-size: 18px;
+         text-align: center;
+         letter-spacing: -0.01em;
+         margin-left: 2rem;   
+     }
+    .focus img{
+        max-width: 50%;
+        object-fit: cover;
+        border-radius: 2rem;
+        text-align: center;
+      }
+      .strong .know{
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .strong .live{
+    }
+    .live{
+    }
+    .live h2{
+       font-size: 19px;
+       line-height: 1.2;
+   }
+   .live p{
+       font-size: 20px;
+       width: 92%;
+   }
+}
+
+@media screen and (max-width: 768px){
+    .strong .live{
+        text-align: left;
+        margin-left: 3.5rem;
+    }
+    .live{
+      }
+    .live h2{
+       font-size: 19px;
+       line-height: 1.2;
+   }
+   .live p{
+       font-size: 20px;
+       line-height: 1.2;
+       word-wrap: break-word;
+
+   }
+}
+
+@media screen and (max-width: 960px){
+    .focus img{
+        min-width: 50%;
+        object-fit: cover;
+        border-radius: 2rem;
+        text-align: center;
+      }
+}
+
+
+

@@ -1,0 +1,64 @@
+.man{
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 380px){
+    .man{
+        font-size: 20px;  
+        padding-left: 1rem;  
+    }
+    }
+
+        
+    
+    @media screen and (max-width: 480px){
+        .man{
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        }
+    
+        
+        @media screen and (max-width: 768px){
+            .man{
+                font-size: 1.4rem;
+            }
+        }
+.line{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 480px){
+    .line{
+        font-size: 20px;
+       font-weight: 500;
+       width: 180%;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .line{
+        font-size: 20px;
+        font-weight: 500;
+        width: 190%; 
+    }
+    }
+
+
+    @media screen and (max-width: 768px){
+        .line{
+            font-size: 1.2rem;
+            font-weight: 500;
+          width: 180%;
+        }
+    }
+
+    @media screen and (max-width: 570px){
+
+        .line{
+            font-size: 1.2rem;
+            font-weight: 500;
+          width: 180%;
+        }
+    }

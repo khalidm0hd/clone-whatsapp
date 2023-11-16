@@ -1,0 +1,1006 @@
+.hype{
+  background: #111B21;
+  width: 175%;
+  color: #eee;
+}
+.hype .going{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+
+}
+.hype .Business{
+  text-align: center;
+}
+.Business h2{
+  font-size: 56px;
+}
+.advice img{
+  width: 40%;  
+  border-radius: 2rem;
+  margin: 2rem;
+  margin-left: 9rem;
+
+}
+.find{
+  margin-top: 10%;
+}
+.find h2{
+  font-size: 37px;
+  line-height: 66px;
+  text-align: center;
+}
+span{
+  color: #25D366;
+}
+.joke{
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.difficult{
+  flex-basis: 22%;
+  padding: 20px 12px;
+  margin-bottom: 5%;
+}
+.lost .memory{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.lost .ability{
+  text-align: left;
+}
+.plan img{
+  width: 40%;    
+  border-radius: 2rem;
+ margin-left: 10rem;
+}
+.mind .dunk{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  margin: 4rem;
+  align-items: center;
+  padding: 3rem 3rem;
+}
+.mind .dunk{
+  text-align: center;
+}
+
+.jordan img{
+  width: 50%;
+  border-radius: 2rem;
+  margin: 2rem;
+}
+.metro .station{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  margin: 3rem;
+  align-items: center;
+  padding: 6rem 6rem;
+}
+.metro .alarm{
+  text-align: left;
+}
+.story img{
+  width: 50%; 
+  height: 60vh; 
+  margin-left: 7rem;  
+  border-radius: 2rem;
+}
+.rocket .cars{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  margin: 4rem;
+  align-items: center;
+  padding: 3rem 3rem;
+}
+.rocket .global{
+  text-align: center;
+}
+.manufactur img{
+  width: 50%;
+  height: 70vh;
+  border-radius: 2rem;
+  margin: 2rem;
+  margin-left: 9rem;
+}
+
+.flight .story{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  margin: 3rem;
+  align-items: center;
+  padding: 3rem 3rem;
+}
+.metro .generation{
+  text-align: left;
+}
+.leader img{
+  width: 50%;    
+  height: 70vh;
+  border-radius: 2rem;
+}
+.young .inspire{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 3rem;
+}
+.young .adult{
+  text-align: center;
+}
+.Coin img{
+  width: 50%;    
+  border-radius: 2rem;
+  margin-left: 9rem;
+}
+
+@media screen and (max-width: 480px){
+  .hype{
+
+  }
+  .hype .going{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+}
+.hype .Business{
+  margin: 3rem;
+}
+.advice img {
+  width: 50%;
+  object-fit: cover;
+  border-radius: 2rem;
+  margin-left: 13rem;
+}
+.Business h2{
+  font-size: 26px;
+  line-height: 1.2;
+  white-space: nowrap; 
+}
+.Business p{
+  white-space: nowrap; 
+}
+.find h2{
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.2;
+  width: 70%;
+}
+
+.joke{
+  flex-direction: column;
+  text-align: left;
+  padding: 2rem;
+  white-space: nowrap;     
+}
+.difficult{
+margin-bottom: -2rem;
+white-space: nowrap;     
+}
+.difficult h3{
+white-space: nowrap;    
+}
+.lost .memory{
+justify-content: center;
+flex-direction: column;
+align-items: center;
+grid-template-columns: 1fr;
+}
+.lost .ability{
+text-align: left;
+}
+.plan img{
+width: 80%;
+object-fit: cover;
+border-radius: 2rem;
+}
+.ability h2{
+font-size: 26px;
+white-space: nowrap; 
+}
+.ability p{
+width: 90%;
+}
+.mind .dunk{
+justify-content: center;
+flex-direction: column;
+align-items: center;
+grid-template-columns: 1fr;
+}
+.hype .recall{
+text-align: center;
+}
+.recall p{
+width: 100%;
+}
+.jordan img {
+width: 100%;
+object-fit: cover;
+border-radius: 2rem;
+margin-left: -1rem;
+}
+.metro .station{
+justify-content: center;
+flex-direction: column;
+align-items: center;
+grid-template-columns: 1fr;
+}
+.metro .alarm{
+text-align: center;
+width: 130%;
+}
+.alarm p{
+}
+.story {
+  margin-right: 2rem;
+border-radius: 2rem;
+}
+.rocket .cars{
+justify-content: center;
+flex-direction: column;
+align-items: center;
+grid-template-columns: 1fr;
+}
+.cars .global{
+width: 120%;
+}
+.global p{
+}
+.manufactur {
+width: 100%;
+height: auto;
+object-fit: cover;
+margin-left: 3rem;
+border-radius: 2rem;
+}
+
+.flight .story{
+justify-content: center;
+flex-direction: column;
+align-items: center;
+grid-template-columns: 1fr;
+}
+.flight .generation{
+text-align: center;
+width: 100%;
+}
+.generation p{
+}
+.leader img{
+width: 100%;
+height: auto;
+object-fit: cover;
+border-radius: 2rem;
+}
+.young .inspire{
+justify-content: center;
+flex-direction: column;
+align-items: center;
+grid-template-columns: 1fr;
+}
+.young .adult{
+  width: 70%;
+
+}
+.adult p{
+}
+.Coin img {
+width: 80%;
+object-fit: cover;
+border-radius: 2rem;
+margin-top: 2rem;
+margin-left: 4rem;
+}
+}
+
+@media screen and (max-width: 768px){
+  .hype{
+  }
+  .hype .going{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+}
+.hype .Business{
+  text-align: left;
+  margin-left: 3rem;
+}
+  .advice img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+.Business h2{
+  font-size: 34px;
+}
+.Business p{
+  font-size: 20px;
+}
+.find h2{
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.joke{
+  flex-direction: column;
+  text-align: left;
+  padding: 5rem;
+  white-space: nowrap;     
+}
+.difficult{
+margin-bottom: -2rem;
+white-space: nowrap;     
+}
+.difficult h3{
+white-space: nowrap;    
+}
+.lost .memory{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+.lost .ability{
+  text-align: left;
+  margin-left: 1rem;
+
+}
+.plan img {
+  width: 60%;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+.ability h2{
+font-size: 30px;
+white-space: nowrap; 
+}
+.ability p{
+  word-wrap: break-word;
+  font-size: 23px;
+}
+.ability a{
+  text-decoration: underline;
+  text-decoration-color: #25D366;
+  font-size: 21px;
+  letter-spacing: -0.01em;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 7px;
+  color: #fff;
+}
+.mind .dunk{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+.mind .recall{
+  text-align: left;
+  margin-left: -4rem;
+}
+.jordan img {
+  width: 80%;
+  object-fit: cover;
+  border-radius: 2rem;
+  margin-left: -1rem;
+}
+.recall h2{
+  font-size: 35px;
+}
+.recall p{
+  font-size: 22px;
+}
+.recall a{
+  text-decoration: underline;
+  text-decoration-color: #25D366;
+  font-size: 21px;
+  letter-spacing: -0.01em;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 7px;
+  color: #fff;
+}
+.metro .station{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+.metro .alarm{
+  text-align: left;
+  margin-left: -6rem;
+}
+.story img {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+.alarm h2{
+  font-size: 30px;
+}
+.alarm p{
+  font-size: 21px;
+  width: 114%;
+}
+.rocket .cars{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+.cars .global{
+  text-align: left;
+  margin-left: -4rem;
+}
+.global h2{
+  font-size: 30px;
+
+}
+.global p{
+  font-size: 22px;
+  width: 102%;
+
+}
+.global a{
+  text-decoration: underline;
+  text-decoration-color: #25D366;
+  font-size: 21px;
+  letter-spacing: -0.01em;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 7px;
+  color: #fff;
+}
+.manufactur img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  margin-left: -0.3rem;
+  border-radius: 2rem;
+}
+.flight .story{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+.flight .generation{
+text-align: left;
+margin-left: -3rem;
+}
+.generation h2{
+  font-size: 30px;
+
+}
+.generation p{
+  font-size: 22px;
+  width: 102%;
+}
+.leader img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+.young .inspire{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+.young .adult{
+  text-align: left;
+}
+.adult h2{
+  font-size: 30px;
+
+}
+.adult p{
+  font-size: 22px;
+  width: 102%;
+}
+.adult a{
+  text-decoration: underline;
+  text-decoration-color: #25D366;
+  font-size: 21px;
+  letter-spacing: -0.01em;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 7px;
+  color: #fff;
+}
+.Coin img {
+  width: 80%;
+  object-fit: cover;
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+}
+
+@media screen and (max-width: 320px){
+  .hype{
+    background: #111B21;
+    color: #eee;
+  }
+  .hype .going{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+    margin-left: -5rem;
+}
+.hype .Business{
+  text-align: left;
+  margin-left: 8rem;
+}
+.advice img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 2rem;
+    margin-left: 8rem;
+}
+.Business h2{
+  font-size: 24px;
+  line-height: 1.2;
+}
+.Business p{
+  white-space: nowrap; 
+  font-size: 22px;
+}
+.find h2{
+  width: 70%;
+  margin-left: 4rem;
+}
+  .joke{
+    flex-direction: column;
+    text-align: left;
+    padding: 2rem;
+    white-space: nowrap;     
+}
+.difficult{
+  margin-bottom: -2rem;
+  white-space: nowrap;     
+}
+.difficult h3{
+  white-space: nowrap;    
+}
+.lost .memory{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+.lost .ability{
+  text-align: left;
+}
+.plan img {
+  width: 70%;
+  border-radius: 2rem;
+}
+.ability h2{
+font-size: 29px;
+white-space: nowrap;
+}
+.ability p{
+  width: 90%;
+  font-size: 23px;
+}
+.mind .dunk{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+.hype .recall{
+  text-align: left;
+  margin-left: -5rem;
+}
+.recall p{
+  width: 120%;
+}
+.jordan img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+  margin-left: -1rem;
+}
+.metro .station{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+.metro .alarm{
+  text-align: left;
+}
+.story img {
+  width: 100%;
+  border-radius: 2rem;
+}
+.alarm p{
+  width: 70%;
+}
+.rocket .cars{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+.cars .global{
+  text-align: left;
+}
+.global p{
+}
+.manufactur img {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+  margin-left: -0.3rem;
+  border-radius: 2rem;
+}
+.flight .story{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+.flight .generation{
+text-align: left;
+margin-left: -3rem;
+}
+.generation p{
+}
+.leader img {
+  width: 95%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+.young .inspire{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+.young .adult{
+  text-align: left;
+  padding-left: 3rem;
+}
+.adult p{
+}
+.Coin img {
+  width: 90%;
+  object-fit: cover;
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+}
+
+@media screen and (max-width: 414px){
+  .hype{
+    color: #eee;
+  }
+  .hype .going{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+}
+.hype .Business{
+  text-align: left;
+}
+.Business h2{
+  font-size: 30px;
+  line-height: 1.2;
+}
+.Business p{
+  white-space: nowrap; 
+  font-size: 22px;
+}
+.advice img {
+  width: 50%;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+.find h2{
+  width: 70%; 
+  margin-left: 4rem;
+}
+.joke{
+  flex-direction: column;
+  text-align: left;
+  padding: 2rem;
+  white-space: nowrap;     
+}
+.difficult{
+  margin-bottom: -2rem;
+  white-space: nowrap;     
+}
+.difficult h3{
+  white-space: nowrap;    
+}
+.lost .memory{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+.lost .ability{
+  text-align: left;
+}
+.plan img {
+  width: 60%;
+  border-radius: 2rem;
+}
+.ability h2{
+  font-size: 29px;
+  white-space: nowrap;
+  }
+  .ability p{
+    font-size: 23px;
+    width: 70%;
+  }
+  .mind .dunk{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+  .hype .recall{
+    text-align: left;
+  }
+  .recall h2{
+    white-space: nowrap;
+  }
+  .jordan img {
+    margin-top: 5rem;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 2rem;
+  }
+  .metro .station{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+  .metro .alarm{
+    text-align: left;
+    width:130%;
+  }
+  .alarm p{
+  }
+  .story img {
+    width: 80%;
+    border-radius: 2rem;
+  }
+  .rocket .cars{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+  .cars .global{
+    width: 120%;
+  }
+  .manufactur img {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 2rem;
+    margin-top: 3rem;
+  }
+  .flight .story{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+  .flight .generation{
+  text-align: left;
+  }
+  .generation p{
+    width: 90%;
+  }
+  .leader img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 2rem;
+  }
+  .young .inspire{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+  .young .adult{
+    text-align: left;
+    width: 70%;
+  }
+  .Coin img {
+    width: 60%;
+    object-fit: cover;
+    border-radius: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 369px){
+  .hype{
+    color: #eee;
+  }
+  .hype .going{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+}
+.hype .Business{
+  text-align: left;
+}
+  .Business h2{
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  .Business p{
+    white-space: nowrap; 
+    font-size: 22px;
+  }
+  .advice img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 2rem;
+  }
+  .find h2{
+    width: 70%; 
+    margin-left: 4rem;
+  }
+  .joke{
+    flex-direction: column;
+    text-align: left;
+    padding: 2rem;
+    white-space: nowrap;     
+  }
+  .difficult{
+    margin-bottom: -2rem;
+    white-space: nowrap;     
+  }
+  .difficult h3{
+    white-space: nowrap;    
+  }
+  .lost .memory{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+  .lost .ability{
+    text-align: left;
+  }
+  .plan img {
+    width: 60%;
+    border-radius: 2rem;
+  }
+  .ability h2{
+    font-size: 29px;
+    white-space: nowrap;
+    }
+    .ability p{
+      font-size: 23px;
+      width: 90%;
+    }
+    .mind .dunk{
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      grid-template-columns: 1fr;
+    }
+    .hype .recall{
+      text-align: left;
+    }
+    .recall h2{
+      white-space: nowrap;
+    }
+    .recall p{
+      width: 90%;
+    }
+    .jordan img {
+      margin-top: 5rem;
+      width: 90%;
+      object-fit: cover;
+      border-radius: 2rem;
+    }
+    .metro .station{
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      grid-template-columns: 1fr;
+    }
+    .metro .alarm{
+      text-align: left;
+    }
+    .alarm p{
+      width: 110%;
+    }
+    .story img {
+      width: 80%;
+      border-radius: 2rem;
+    }
+    .rocket .cars{
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      grid-template-columns: 1fr;
+    }
+    .global p{
+      width: 90%;
+    }
+    .manufactur img {
+      width: 70%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 2rem;
+      margin-top: 3rem;
+    }
+    .flight .story{
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      grid-template-columns: 1fr;
+    }
+    .flight .generation{
+    text-align: left;
+    }
+    .generation p{
+      width: 78%;
+        }
+    .leader img {
+      width: 80%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 2rem;
+    }
+    .young .inspire{
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      grid-template-columns: 1fr;
+    }
+    .young .adult{
+      text-align: left;
+    }
+    .adult p{
+      width: 90%;
+    }
+    .Coin img {
+      width: 60%;
+      object-fit: cover;
+      border-radius: 2rem;
+      margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+  .find h2{
+    width: 70%;
+    margin-left: 4rem;
+  }
+    .recall p{
+      width: 100%;
+  }
+  .alarm p{
+    width: 105%;
+  }
+  .global p{
+  }
+}

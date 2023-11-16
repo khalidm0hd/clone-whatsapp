@@ -1,0 +1,488 @@
+.header {
+    position: sticky;
+    width: 100%;
+    height: 90px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    border-color: 1px solid #eee;
+  }
+  
+  .header-bg {
+    background-color: #cdc9c9;
+  }
+  
+  .header .solo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    padding: 1rem;
+  }
+  
+  .chase {
+    padding-left: 2rem;
+    width: 130px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    text-transform: capitalize;
+    cursor: pointer;
+    align-items: center;
+    font-weight: 500;
+  }
+  
+  .nav-menu li {
+    padding: 2rem;
+  }
+  
+  .nav-menu a {
+    font-size: 1rem;
+    color: #000;
+  }
+  
+  .nav-menu li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #25d366;
+    display: block;
+    margin: auto;
+    transition: 0.7s;
+  }
+  
+  .nav-menu li:hover::after {
+    width: 100%;
+  }
+  
+  .btn {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 2rem;
+    background: #25d366;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    color: #000;
+    transition: 5s;
+  }
+  
+  ::selection {
+    background: teal;
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+
+
+  @media screen and (max-width: 1240px) {
+    .hamburger{
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .header {
+      position: sticky;
+      width: 100%;
+      height: 90px;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+  
+    .chase {
+      margin-left: 17rem;
+    }
+  
+    .hamburger {
+      padding-left: 2rem;
+      position: absolute;
+      display: block;
+    }
+  
+    .btn-big {
+      display: block;
+      margin-right: 1rem;
+    }
+    .btn {
+      font-size: 10px;
+    }
+    .nav-menu {
+      position: fixed;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+      top: 4rem;
+      left:100%;
+      width: 96%;
+      height: 90vh;
+      transition: 0.4s;
+      z-index: 2;
+      background: #fff;
+      border-left: 1px solid #eee;
+    }
+  
+    .nav-menu li {
+      padding: 1.8rem;
+      border-bottom: 1px solid #333;
+      width: 90%;
+    }
+  
+    .nav-menu.active {
+      left: 0;
+    }
+  
+    .nav-menu a {
+      font-size: 1.2rem;
+    }
+  
+    .nav-menu a:hover {
+      text-decoration: none;
+      background: none;
+    }
+  
+    .nav-menu li::after {
+      background: none;
+    }
+  }
+  
+  @media screen and (max-width: 730px) {
+    .header {
+      position: sticky;
+      width: 100%;
+      height: 90px;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+  
+    .chase {
+      margin-left: 15rem;
+    }
+  
+    .hamburger {
+      padding-left: 2rem;
+      position: absolute;
+      display: block;
+    }
+  
+    .btn-big {
+      display: block;
+      margin-right: 1rem;
+    }
+    .btn {
+      font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width: 673px) {
+    .header {
+      position: sticky;
+      width: 100%;
+      height: 90px;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+  
+    .chase {
+      margin-left: 14rem;
+    }
+  
+    .hamburger {
+      padding-left: 2rem;
+      position: absolute;
+      display: block;
+    }
+  
+    .btn-big {
+      display: block;
+      margin-right: 1rem;
+    }
+    .btn {
+      font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width: 636px) {
+    .header {
+      position: sticky;
+      height: 90px;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+  
+    .chase {
+      margin-left: 11rem;
+    }
+  
+    .hamburger {
+      padding-left: 2rem;
+      position: absolute;
+      display: block;
+    }
+  
+    .btn-big {
+      display: block;
+      margin-right: 1rem;
+    }
+    .btn {
+      font-size: 10px;
+    }
+    .nav-menu {
+      position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        top: 4rem;
+        left: 100%;
+        width: 100%;
+        height: 100vh;
+        transition: 0.4s;
+        z-index: 2;
+        background: #ffff;
+        border-left: 1px solid #eee;
+      }
+    
+      .nav-menu li {
+        padding: 1.8rem;
+        border-bottom: 1px solid #333;
+        width: 90%;
+          }
+  }
+
+  @media screen and (max-width: 530px) {
+    .header {
+      position: sticky;
+      width: 110%;
+      height: 90px;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+  
+    .chase {
+      margin-left: 10rem;
+    }
+  
+    .hamburger {
+      padding-left: 2rem;
+      position: absolute;
+      display: block;
+    }
+  
+    .btn-big {
+      display: block;
+      margin-right: 1rem;
+    }
+    .btn {
+      font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .header {
+      position: sticky;
+      width: 160%;
+      height: 90px;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+  
+    .chase {
+      margin-left: 15rem;
+    }
+  
+    .hamburger {
+      padding-left: 2rem;
+      position: absolute;
+      display: block;
+    }
+  
+    .btn-big {
+      display: block;
+      margin-right: 1rem;
+    }
+    .btn {
+      font-size: 10px;
+    }
+    .nav-menu {
+      position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        top: 4rem;
+        left: 100%;
+        width: 100%;
+        height: 148vh;
+        transition: 0.4s;
+        z-index: 2;
+        background: #ffff;
+        border-left: 1px solid #eee;
+      }
+    
+      .nav-menu li {
+        padding: 1.8rem;
+        border-bottom: 1px solid #333;
+        width: 90%;
+          }
+  }
+
+  @media screen and (max-width: 450px) {
+    .header {
+      position: sticky;
+      width: 157%;
+      height: 90px;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+  
+    .chase {
+      margin-left: 12rem;
+    }
+  
+    .hamburger {
+      padding-left: 2rem;
+      position: absolute;
+      display: block;
+    }
+  
+    .btn-big {
+      display: block;
+      margin-right: 1rem;
+    }
+    .btn {
+      font-size: 10px;
+    }
+  }
+
+
+
+  @media screen and (max-width: 380px) {
+    .header {
+      position: sticky;
+      width: 175%;
+      height: 90px;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+  
+    .chase {
+      margin-left: 12.4rem;
+    }
+  
+    .hamburger {
+      padding-left: 2rem;
+      position: absolute;
+      display: block;
+    }
+  
+    .btn-big {
+      display: block;
+      margin-right: 1rem;
+    }
+    .btn {
+      font-size: 10px;
+    }
+    .nav-menu {
+      position: fixed;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+      top: 4rem;
+      left: 100%;
+      width: 100%;
+      height: 100%;
+      transition: 0.4s;
+      background: #fff;
+      z-index: 2;
+      border-left: 1px solid #eee;
+    }
+  
+    .nav-menu li {
+      padding: 1.8rem;
+      border-bottom: 1px solid #333;
+      width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 340px) {
+    .header {
+      position: sticky;
+      height: 90px;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+  
+    .chase {
+      margin-left: 10rem;
+    }
+  
+    .hamburger {
+      padding-left: 2rem;
+      position: absolute;
+      display: block;
+    }
+  
+    .btn-big {
+      display: block;
+      margin-right: 1rem;
+    }
+    .btn {
+      font-size: 10px;
+    }
+  }
+
+
+
+  @media screen and (max-width: 320px) {
+    .nav-menu {
+      position: fixed;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+      top: 4rem;
+      left: 100%;
+      width: 92%;
+      height: 100%;
+      transition: 0.4s;
+      background: #fff;
+      z-index: 2;
+      border-left: 1px solid #eee;
+    }
+  
+    .nav-menu li {
+      padding: 1.8rem;
+      border-bottom: 1px solid #333;
+      width: 90%;
+    }
+  
+    .nav-menu.active {
+      left: 0;
+    }
+  
+    .nav-menu a {
+      font-size: 1.2rem;
+    }
+  
+    .nav-menu a:hover {
+      text-decoration: none;
+      background: none;
+    }
+  
+    .nav-menu li::after {
+      background: none;
+    }
+  }

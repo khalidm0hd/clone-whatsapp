@@ -1,0 +1,27 @@
+.man{
+    font-size: 1rem;
+     text-align: center;
+}
+
+@media screen and (max-width: 380px){
+    .man{
+        font-size: 20px;  
+        padding-left: 1rem;  
+    }
+    }
+
+        
+    
+    @media screen and (max-width: 480px){
+        .man{
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        }
+    
+        
+        @media screen and (max-width: 768px){
+            .man{
+                font-size: 1.4rem;
+            }
+        }

@@ -1,0 +1,328 @@
+.dream .Youth{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+.vision img{
+    width: 50%;    
+    border-radius: 2rem;
+}
+.dream .Steve{
+    text-align: left;
+}
+.Steve h2{
+    font-size: 50px;
+    line-height: 1.1;
+    color: #000;
+    font-weight: 400;
+}
+.Steve p{
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: #000;
+}
+.Steve a{
+    text-decoration: underline;
+    text-decoration-color: #25D366;
+    font-size: 19px;
+    letter-spacing: -0.01em;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 7px;
+    color: #000;
+}
+.Steve a:hover{
+    color: #25D366;
+}
+.team .deal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin: 4rem;
+    align-items: center;
+}
+.team .hack{
+    text-align: center;
+}
+.quite img{
+    width: 50%;
+    border-radius: 2rem;
+    margin: 2rem;
+}
+.hack h2{
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.hack p{
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+}
+.hack a{
+    text-decoration: underline;
+    text-decoration-color: #25D366;
+    font-size: 19px;
+    letter-spacing: -0.01em;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 7px;
+    color: #000;
+}
+.hack a:hover{
+    color: #25D366;
+}
+
+@media screen and (max-width: 480px){
+    .dream .Youth{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: 1fr;
+    }
+    .vision {
+        width: 130%;
+        object-fit: cover;
+        border-radius: 2rem;
+        margin-left: 2rem;
+    }
+
+    .Steve h2{
+        font-size: 30px;
+        line-height: 1;
+    }
+    .Steve p{
+        font-size: 19px;
+        line-height: 22px;
+        letter-spacing: -0.01em;
+        font-weight: 400;
+        width: 140%;
+    }
+    .Steve a{
+        text-decoration: underline;
+        text-decoration-color: #25D366;
+        font-size: 19px;
+        letter-spacing: -0.01em;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 7px;
+    }
+    .team .deal{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+    .team .hack{
+        text-align: left;
+        width: 150%;
+    }
+    .hack h2{
+        font-size: 30px;
+        line-height: 1;
+    }
+    .hack p{
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: -0.01em;
+    }
+    .quite {
+        width: 130%;
+        object-fit: cover;
+        margin-top: 5rem;
+        margin-left: 3rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .dream .Youth{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: 1fr;
+    }
+    .vision img{
+        width: 40%;
+        object-fit: cover;
+        border-radius: 2rem;
+    }
+    .Steve h2{
+        font-size: 30px;
+        line-height: 1;
+    }
+    .Steve p{
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: -0.01em;
+        font-weight: 400;
+    }
+.team .deal{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+}
+.team .hack{
+    text-align: left;
+}
+.hack h2{
+    font-size: 30px;
+    line-height: 1;
+}
+.hack p{
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+}
+.quite img{
+    width: 40%;
+    object-fit: cover;
+    border-radius: 2rem;
+    margin-top: 5rem;
+}
+}
+    @media screen and (max-width: 320px){
+        
+        .dream .Youth{
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            grid-template-columns: 1fr;
+        }
+        .vision{
+            width: 100%;
+            border-radius: 2rem;
+        }
+        .dream .Steve{
+            margin-left: -1.5rem;
+        }
+        .Steve h2{
+            font-size: 30px;
+            line-height: 1;
+        }
+        .Steve{
+            width: 150%;
+        }
+        .Steve p{
+            font-size: 20px;
+            line-height: 22px;
+            letter-spacing: -0.01em;
+
+        }
+        .team .hack{
+            text-align: left;
+            width: 140%;
+        }
+        .hack h2{
+            font-size: 30px;
+            line-height: 1;
+        }
+        .hack p{
+            font-size: 19px;
+            line-height: 22px;
+            letter-spacing: -0.01em;
+            font-weight: 400;
+        }
+        .quite {
+            width: 200%;
+            border-radius: 2rem;
+        }
+    }      
+    @media screen and (max-width: 403px){
+        .dream .Youth{
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            grid-template-columns: 1fr;
+        }
+        .vision img{
+            width: 100%;
+            object-fit: cover;
+            border-radius: 2rem;
+        }
+        .Steve h2{
+            font-size: 30px;
+            line-height: 1;
+        }
+        .Steve p{
+            font-size: 22px;
+            letter-spacing: -0.01em;
+            width: 130%;
+        }
+        .team .deal{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            grid-template-columns: 1fr;
+        }
+        .team .hack{
+            width: 100%;
+        }
+        .hack h2{
+            font-size: 30px;
+            line-height: 1;
+        }
+        .hack p{
+            font-size: 19px;
+            line-height: 22px;
+            letter-spacing: -0.01em;
+        }
+        .quite img{
+            width: 100%;
+            object-fit: cover;
+            border-radius: 2rem;
+            margin-top: 5rem;
+        }
+    }
+
+    @media screen and (max-width: 380px){
+        .vision{
+            width: 150%;
+        }
+    }
+
+
+     @media screen and (max-width: 530px){
+        .hack{
+            width: 120%;
+        }
+     }
+
+
+    @media screen and (max-width: 320px){
+        .vision{
+            width: 180%;
+            margin-left: -0.5rem;
+        }
+        .quite{
+            margin-left: -1.5rem;
+        }
+    }
+
+@media screen and (max-width: 960px){
+    .vision img{
+        width: 65%;
+        object-fit: cover;
+        border-radius: 2rem;
+    }
+    .hack p{
+        font-size: 19px;
+        line-height: 22px;
+        letter-spacing: -0.01em;
+        white-space: initial;
+        width: 105%;
+    }
+    .quite img{
+        width: 70%;
+        object-fit: cover;
+        border-radius: 2rem;
+        margin-top: 5rem;
+    }
+}
+@media screen and (max-width: 360px){
+    .hack p{
+        width: 130%;
+    }
+}

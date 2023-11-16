@@ -1,0 +1,224 @@
+.voice{
+  width: 95%;
+  height: 100vh;
+  background: linear-gradient(rgba(21, 21, 21, 0.1), rgba(33,33,33,0.1)), url(../astro/what2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  border-radius: 1.8rem;
+  margin-left: 2rem;
+  position: relative;
+  top: 1.3rem;
+}
+
+.outside{
+  position: absolute;
+  margin-top: 4rem;
+  left: 10rem;
+}
+.outside h1{
+  font-size: 64px;
+  color: #eee;
+}
+.outside p{
+  font-size: 18px;
+  color: #eee;
+  font-weight: 400;
+}
+.cap {
+  flex-direction: row;
+  position: absolute;
+  left: 55%;
+}
+.film{
+  display: grid;
+}
+.loop{
+  width: 60%;
+  margin-bottom: 6rem;
+}
+.quick{
+  width: 60%;
+  margin-bottom: 0.5rem;
+}
+.people{
+  width: 40%;
+  border-radius: 0.7rem;
+  height: 100%;
+}
+.yolo{
+  width: 60%;
+  padding-top: 3rem;
+}
+.dope{
+  position: relative;
+}
+
+
+@media screen and (max-width: 768px){
+
+  .voice{
+    max-width: 90%;
+    height: 95vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.6rem;
+    margin-left: 2rem;
+    top: 3rem;
+  }
+  .outside{
+    left: 2rem;
+    bottom: 7em;
+    color: #ffff;
+  }
+  .outside h1{
+    text-align: left;
+    font-size: 2.3rem;
+
+  }
+  .outside p{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .loop{
+    position: relative;
+    right: 100%;
+    width: 100%;
+    top: -2rem;
+  }
+  .quick{
+    display: none;
+  }
+  .people{
+    display: none;
+  }
+  .yolo{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 480px){
+  .voice{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.6rem;
+    left: 5.5rem;
+    top: 3rem;
+  }
+  .outside{
+    left: 2rem;
+    bottom: 7em;
+    color: #ffff;
+  }
+  .outside h1{
+    text-align: left;
+    font-size: 2.3rem;
+
+  }
+  .outside p{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .loop{
+    position: relative;
+    right: 100%;
+    width: 100%;
+    top: -2rem;
+  }
+  .quick{
+    display: none;
+  }
+  .people{
+    display: none;
+  }
+  .yolo{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 414px){
+  .voice{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.6rem;
+    left: 4rem;
+    top: 3rem;
+  }
+}
+
+
+
+@media screen and (max-width: 320px){
+  .voice{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.6rem;
+    margin-left: 4.5rem;
+    left: 1rem;
+    top: 3rem;
+  }
+  .outside{
+    left: 2rem;
+    bottom: 7em;
+    color: #ffff;
+  }
+  .outside h1{
+    text-align: left;
+    font-size: 2.3rem;
+  }
+  .outside p{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .loop{
+    position: relative;
+    width: 180%;
+    object-fit: cover;
+    top: -2rem;
+  }
+  .quick{
+    display: none;
+  }
+  .people{
+    display: none;
+  }
+  .yolo{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .voice{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.6rem;
+    top: 3rem;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .voice{
+    padding-left: 2rem;
+   }
+}
