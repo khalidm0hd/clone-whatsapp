@@ -24,7 +24,7 @@ const Home = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 6500);
+    }, 3500);
   }, []);
 
 
